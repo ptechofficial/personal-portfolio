@@ -1,0 +1,39 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/cache
+
+# Testing
+/coverage
+
+# Next.js build output
+/.next/
+/out/
+
+# Production
+/build
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env*
+!.env.example
+
+# Operating System files
+.DS_Store
+*.pem
+
+# Personal Documents & PDFs (Strictly exclude from git)
+*.pdf
+*.PDF
+*LinkedIn*
+*resume*
+*Resume*
+/avatar.png
+
+# Agent / local cache
+.turbo
